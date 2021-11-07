@@ -1,0 +1,24 @@
+
+4. Execute the below code and write your description in txt file
+a.typeof(1)
+b.typeof(1.1)
+c.typeof('1.1')
+d.typeof(true)
+e.typeof(null)
+f.typeof(undefined)
+g.typeof([])
+h.typeof({})
+i.typeof(NaN)
+
+
+CODE: 
+
+console.log(typeof(1))           //number
+console.log(typeof(1.1))         //number
+console.log(typeof('1.1'))       //string
+console.log(typeof(true))        //boolean
+console.log(typeof(null))        //object
+console.log(typeof(undefined))   //undefined
+console.log(typeof([]))          //object
+console.log(typeof({}))          //object
+console.log(typeof(NaN))         //number

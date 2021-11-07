@@ -1,0 +1,16 @@
+1.List 5 difference between Browser JS(console) v Nodejs
+
+Both the browser and Node.js use JavaScript as their programming language.
+
+*In the browser, most of the time what you are doing is interacting with the DOM, or other Web Platform APIs like Cookies. Those do not exist in Node.js, of course. You don't have the document, window and all the other objects that are provided by the browser.
+
+*And in the browser, we don't have all the nice APIs that Node.js provides through its modules, like the filesystem access functionality.
+
+*Browser JS is a client side JavaScript where as the NodeJS is a server side JavaScript.
+
+*Another difference is that Node.js uses the CommonJS module system, while in the browser we are starting to see the ES Modules standard being implemented.
+
+*In NodeJS evreything is a module i.e it is mandatory to keep every thing inside a module , while moduling is not mandatory for Browser JavaScript.
+
+As both of them are JavaScript executor ,and Node uses the JavaScript engine of a browser ,so difference are much not there.
+

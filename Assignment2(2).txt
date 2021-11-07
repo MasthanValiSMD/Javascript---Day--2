@@ -1,0 +1,14 @@
+2. watch & summary 5 points 
+- https://www.youtube.com/watch?v=SmE4OwHztCc&ab_channel=JSConf
+
+Summary : 
+
+*When a webpage is loaded,the browser parses the HTML text and constructs DOM tree, then it process CSS and constructs the CSSOM tree.
+*Then this DOM tree is converted into Render tree.
+*The Render tree is actually divided four trees , they are,
+=>RenderObjects
+=>RenderStyles
+=>RenderLayers
+=>Line Boxes
+*Then the browser creates layout of each individual Render-tree node.The layout consists of the size of each node in pixels.
+*Then painting will actually produce an image of that layer and give you the output you are expecting on the page.
